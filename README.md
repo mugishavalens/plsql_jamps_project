@@ -2,10 +2,7 @@
 
 **Student:** Mugisha Valens  
 **Student ID:** 27801  
-**GitHub Repository:** [PLSQL_Capstone_Project_Enhanced_BI](https://github.com/your-username/PLSQL_Capstone_Project_Enhanced_BI)  
-
-**Final Commit:** `chore: Final commit – complete PL/SQL Job Application Management System with full scripts, triggers, procedures, sample data, documentation, and BI dashboards`
-
+**GitHub Repository:** [PLSQL_Capstone_Project_Enhanced_BI](https://github.com/mugishavalens/plsql_jamps_project)  
 
 ## Overview
 
