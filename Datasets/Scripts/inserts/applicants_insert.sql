@@ -1,0 +1,11 @@
+INSERT INTO APPLICANTS (FIRST_NAME, LAST_NAME, EMAIL, PHONE) VALUES ('Alice', 'Smith', 'alice.smith@example.com', '07880001');
+INSERT INTO APPLICANTS (FIRST_NAME, LAST_NAME, EMAIL, PHONE) VALUES ('Bob', 'Johnson', 'bob.johnson@example.com', '07880002');
+INSERT INTO APPLICANTS (FIRST_NAME, LAST_NAME, EMAIL, PHONE) VALUES ('Charlie', 'Brown', 'charlie.brown@example.com', '07880003');
+INSERT INTO APPLICANTS (FIRST_NAME, LAST_NAME, EMAIL, PHONE) VALUES ('Diana', 'Williams', 'diana.williams@example.com', '07880004');
+INSERT INTO APPLICANTS (FIRST_NAME, LAST_NAME, EMAIL, PHONE) VALUES ('Ethan', 'Jones', 'ethan.jones@example.com', '07880005');
+INSERT INTO APPLICANTS (FIRST_NAME, LAST_NAME, EMAIL, PHONE) VALUES ('Fiona', 'Miller', 'fiona.miller@example.com', '07880006');
+INSERT INTO APPLICANTS (FIRST_NAME, LAST_NAME, EMAIL, PHONE) VALUES ('George', 'Davis', 'george.davis@example.com', '07880007');
+INSERT INTO APPLICANTS (FIRST_NAME, LAST_NAME, EMAIL, PHONE) VALUES ('Hannah', 'Garcia', 'hannah.garcia@example.com', '07880008');
+INSERT INTO APPLICANTS (FIRST_NAME, LAST_NAME, EMAIL, PHONE) VALUES ('Ian', 'Martinez', 'ian.martinez@example.com', '07880009');
+INSERT INTO APPLICANTS (FIRST_NAME, LAST_NAME, EMAIL, PHONE) VALUES ('Jane', 'Rodriguez', 'jane.rodriguez@example.com', '07880010');
+COMMIT;

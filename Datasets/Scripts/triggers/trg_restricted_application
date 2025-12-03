@@ -1,0 +1,18 @@
+-- Purpose: Prevents applications on weekends or public holidays
+CREATE OR REPLACE TRIGGER trg_restrict_application
+BEFORE INSERT ON job_applications
+FOR EACH ROW
+DECLARE
+  v_restricted VARCHAR2(3);
+BEGIN
+  -- Call the corrected function with proper column
+  v_restricted := is_restricted_day(:NEW.application_date);
+
+  IF v_restricted = 'YES' THEN
+    RAISE_APPLICATION_ERROR(
+      -20001, 
+      'Applications cannot be submitted on weekends or public holidays.'
+    );
+  END IF;
+END;
+/
